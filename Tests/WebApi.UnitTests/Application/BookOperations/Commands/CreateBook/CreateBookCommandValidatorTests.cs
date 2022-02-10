@@ -12,7 +12,6 @@ namespace Application.BookOperations.Commands.CreateBook
 {
     public class CreateBookCommandValidatorTests:IClassFixture<CommonTestFixture>
     {
-   
 
         [Theory]
         [InlineData("Lord of the rings",0,0)]
